@@ -1,6 +1,14 @@
 # pygame_gifs
 simple library for recording gifs in pygame
 
+## install
+
+```bash
+pip install pygame_gifs
+```
+
+## example
+
 ```python
 import pygame
 import pygame_gifs
