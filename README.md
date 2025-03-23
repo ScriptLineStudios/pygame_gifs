@@ -5,8 +5,10 @@ simple library for recording gifs in pygame
 import pygame
 import pygame_gifs
 
-display = pygame.display.set_mode((600, 600))
-gf = pygame_gifs.GifRecorder("output2.gif", 600, 600, threads=8)
+width = 600
+height = 600
+display = pygame.display.set_mode((width, height))
+gf = pygame_gifs.GifRecorder("output2.gif", width, height, threads=8)
 gf.start_recording()
 
 clock = pygame.time.Clock()
